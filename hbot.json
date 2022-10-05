@@ -1,0 +1,32 @@
+{
+"activeProtocol": "standard",
+"accounts": [
+	{ "user": "s", "password": "m" },
+	{ "user": "mike", "password": "mike" }	
+],
+"hbotProtocols": [
+	{ "name": "standard", "protocol": [
+		{ "maskon": 20, "maskoff": 5},
+		{ "maskon": 20, "maskoff": 5},
+		{ "maskon": 20, "maskoff": 5},
+		{ "maskon": 20, "maskoff": 8}
+	  ],
+      "videos": [
+      	{ "file": "ants.mp4" },   
+      	{ "file": "venom.mp4" }
+      ]
+	},		
+	{ "name": "shai", "protocol": [
+		{ "maskon": 0, "maskoff": 20},
+		{ "maskon": 20, "maskoff": 5},
+		{ "maskon": 20, "maskoff": 5},
+		{ "maskon": 20, "maskoff": 8}
+	  ],
+      "videos": [
+      	{ "file": "filename1" },   
+      	{ "file": "filename2" },   
+      	{ "file": "filename3" }
+      ]
+	}		
+]
+}
